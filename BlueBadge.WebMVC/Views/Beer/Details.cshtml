@@ -1,0 +1,66 @@
+﻿@model BlueBadge.Data.Beer
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Beer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.BeerName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BeerName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Brewery)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Brewery)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Style)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Style)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cost)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cost)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ABV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ABV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vintage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vintage)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.BeerID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
