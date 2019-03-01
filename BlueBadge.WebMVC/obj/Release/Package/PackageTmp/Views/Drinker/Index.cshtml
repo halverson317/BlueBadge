@@ -1,0 +1,87 @@
+﻿@model IEnumerable<BlueBadge.Data.Drinker>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LocationState)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LocationCity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FavoriteBeer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FavoriteBrewery)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Age)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NoOfTastings)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProfileCreated)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LocationState)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LocationCity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FavoriteBeer)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FavoriteBrewery)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Age)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NoOfTastings)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProfileCreated)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.DrinkerID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.DrinkerID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.DrinkerID })
+        </td>
+    </tr>
+}
+
+</table>

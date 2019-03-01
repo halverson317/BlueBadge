@@ -14,3 +14,9 @@ C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Services\bin\Debug\EntityFramewo
 C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Services\obj\Debug\BlueBadge.Services.csproj.CopyComplete
+C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Services\bin\Debug\BlueBadge.Data.dll
+C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Services\bin\Debug\BlueBadge.Models.dll
+C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Services\bin\Debug\BlueBadge.Data.pdb
+C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Services\bin\Debug\BlueBadge.Data.dll.config
+C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Services\bin\Debug\BlueBadge.Models.pdb
+C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Services\bin\Debug\BlueBadge.Models.dll.config

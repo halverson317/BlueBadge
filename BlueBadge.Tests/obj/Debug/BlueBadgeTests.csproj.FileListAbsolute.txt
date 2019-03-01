@@ -55,3 +55,9 @@ C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Tests\bin\Debug\EntityFramework.
 C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Tests\bin\Debug\BlueBadge.Data.dll
 C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Tests\bin\Debug\BlueBadge.Data.pdb
 C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Tests\bin\Debug\BlueBadge.Data.dll.config
+C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Tests\bin\Debug\BlueBadge.Services.dll
+C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Tests\bin\Debug\BlueBadge.Models.dll
+C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Tests\bin\Debug\BlueBadge.Services.pdb
+C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Tests\bin\Debug\BlueBadge.Services.dll.config
+C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Tests\bin\Debug\BlueBadge.Models.pdb
+C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Tests\bin\Debug\BlueBadge.Models.dll.config

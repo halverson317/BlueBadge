@@ -10,14 +10,17 @@ namespace BlueBadge.Data
     public class Brewery
     {
         [Key]
-        public Guid BreweryID { get; set; }
+        public int BreweryID { get; set; }
 
         [Required]
         public string BreweryName { get; set; }
-        [Required]
+        [MaxLength(2, ErrorMessage ="Please use the State Initials")]
+        [Display(Name = "State")]
         public string BrewLocState { get; set; }
         [Required]
+        [Display(Name = "City")]
         public string BrewLocCity { get; set; }
+        public float CurrentRating  { get; set; }
 
     }
 }

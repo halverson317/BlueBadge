@@ -54,8 +54,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="BeerModels.cs" />
+    <Compile Include="BreweryModels.cs" />
+    <Compile Include="DrinkerModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TastingModels.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -16,4 +16,4 @@ C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Data\bin\Debug\Microsoft.AspNet.
 C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Data\obj\Debug\BlueBadge.Data.csproj.CopyComplete
 C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Data\obj\Debug\BlueBadge.Data.Migrations.InitialCreate.resources
 C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Data\obj\Debug\BlueBadge.Data.csproj.GenerateResource.cache
-C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Data\obj\Debug\BlueBadge.Data.Migrations.databasebuild.resources
+C:\DotNetProjects\BlueBadge\BlueBadge\BlueBadge.Data\obj\Debug\BlueBadge.Data.Migrations.firstone.resources

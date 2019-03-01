@@ -1,0 +1,98 @@
+﻿@model BlueBadge.Data.Drinker
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Drinker</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LocationState)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LocationState)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LocationCity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LocationCity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FavoriteBeer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FavoriteBeer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FavoriteBrewery)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FavoriteBrewery)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Age)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Age)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NoOfTastings)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NoOfTastings)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProfileCreated)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProfileCreated)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.DrinkerID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

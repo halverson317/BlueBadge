@@ -11,20 +11,36 @@ namespace BlueBadge.Data
     public class Tasting
     {
         [Key]
-        public Guid TastingID { get; set; }
+        public int TastingID { get; set; }
+        //public int DrinkerID { get; set; }
 
-        [ForeignKey("Drinker")]
-        public Guid DrinkerID { get; set; }
-        [ForeignKey("Beer")]
-        public Guid BeerID { get; set; }
-        [ForeignKey("Brewery")]
-        public Guid BreweryID { get; set; }
+        /// Beer Attributes ///
 
-        public DateTimeOffset DateOfTasting { get; set; }
+        public int BeerID { get; set; }
+        public string BeerName { get; set; }
+        public string Style { get; set; }
+        public decimal Cost { get; set; }
+        public float ABV { get; set; }
+        public int Vintage { get; set; }
 
+
+        /// Brewery Attribs ///
+
+
+        public int BreweryID { get; set; }
+        
+        public string BreweryName { get; set; }
+        public string BrewLocState { get; set; }
+        public string BrewLocCity { get; set; }
+
+
+        public DateTime DateOfTasting { get; set; }
+
+        [Required]
         public DateTimeOffset DateAdded { get; set; }
 
-        public int Rating { get; set; }
+        [Required]
+        public float Rating { get; set; }
 
         public string Comment { get; set; }
 
@@ -32,7 +48,7 @@ namespace BlueBadge.Data
 
 
 
-        public virtual Drinker Drinker { get; set; }
+       // public virtual Drinker Drinker { get; set; }
         public virtual Beer Beer { get; set; }
         public virtual Brewery Brewery { get; set; }
     }

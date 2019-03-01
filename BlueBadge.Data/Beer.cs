@@ -10,15 +10,16 @@ namespace BlueBadge.Data
     public class Beer
     {
         [Key]
-        public Guid BeerID { get; set; }
+        public int BeerID { get; set; }
 
-        [Required]
+        
         public string BeerName { get; set; }
-        public string Brewery { get; set; }
+        public string BreweryName { get; set; }
         public string Style { get; set; }
         public decimal Cost { get; set; }
         public float ABV { get; set; }
         public int Vintage { get; set; }
+        public float CurrentRating { get; set; }
 
     }
 }

@@ -58,13 +58,13 @@
     <Compile Include="Brewery.cs" />
     <Compile Include="Drinker.cs" />
     <Compile Include="IdentityModels.cs" />
-    <Compile Include="Migrations\201902061900019_InitialCreate.cs" />
-    <Compile Include="Migrations\201902061900019_InitialCreate.Designer.cs">
-      <DependentUpon>201902061900019_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\201902242332502_InitialCreate.cs" />
+    <Compile Include="Migrations\201902242332502_InitialCreate.Designer.cs">
+      <DependentUpon>201902242332502_InitialCreate.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201902061909154_database build.cs" />
-    <Compile Include="Migrations\201902061909154_database build.Designer.cs">
-      <DependentUpon>201902061909154_database build.cs</DependentUpon>
+    <Compile Include="Migrations\201902260422014_first one.cs" />
+    <Compile Include="Migrations\201902260422014_first one.Designer.cs">
+      <DependentUpon>201902260422014_first one.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,11 +75,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201902061900019_InitialCreate.resx">
-      <DependentUpon>201902061900019_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201902242332502_InitialCreate.resx">
+      <DependentUpon>201902242332502_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201902061909154_database build.resx">
-      <DependentUpon>201902061909154_database build.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201902260422014_first one.resx">
+      <DependentUpon>201902260422014_first one.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
